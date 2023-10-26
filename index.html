@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li
+        {
+            display: inline;
+        }
+        .round
+        {
+            border: 2px solid black;
+            border-radius: 100%;
+        }
+        .navg1
+        {
+            margin-left: 100px;
+        }
+        .navg
+        {
+            margin-left: 110px;
+            
+        }
+        .main1
+        {
+            border: 1px;
+            background-color: greenyellow;
+            padding-top: 150px;
+            padding-left: 10px;
+            margin-left: 5px;
+            
+        }
+        .audio
+        {
+            margin-top:10px;
+        }
+        .hed
+        {
+            font-size: 150px;
+        }
+        body
+        {
+            background-color: rgb(204, 246, 205,.7);
+        }
+        .logsec
+        {
+            margin-left: 200px;
+            margin-top: -100px;
+        }
+        .userelse
+        {
+            margin-left: 40px;
+        }
+        .button1
+        {
+            background-color: rgb(200, 248, 140);
+        }
+        #lang
+        {
+            border: 2px;
+            background-color: transparent;
+        }
+        
+        #navigation
+        {
+            color: rgb(9, 100, 15);
+        }
+        .stik
+        { 
+            position: fixed;
+            
+        }
+        #footerr
+        {
+           border: 2px solid black;
+           height: 500px;
+           color: white;
+           background-color: black;
+        }
+        @keyframes mymove {
+    from {left: 0px;}
+    to {left: 2000px;}
+    }
+    #logo
+    {
+    animation-timing-function: ease-out;
+    position: relative;
+    animation: mymove 5s infinite;
+    margin-top: 5px;
+    }
+    table, th, td 
+    {
+    border:1px solid rgb(9, 41, 13);
+    width: 400px;
+    }
+    .tab
+    {
+        margin-bottom: 50px;
+    }
+    .social
+    {
+        color: white;
+    }
+    .s1
+    {
+        margin-left: 10px;
+    }
+       
+       
+    </style>
+</head>
+<body>
+    <header class="stik" style="border: 2px; padding: 20px; background-color: rgb(97, 195, 241); font-weight: 200; margin-top: -10px; padding-top: 15px; width: 100%;">
+       <div >
+           <li style="font-size: 30px; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight: 900; color: white; "> Happy Wheels </li>
+           <li ><input type="text" placeholder="Search" style="border: 1px; background-color: rgb(107, 234, 64); color: black; padding: 20px; padding-right: 400px; border-radius: 20px; margin-left:200px; margin-top: -20px;"></li> 
+           <li style="padding-left: 50px;">
+               <select name="language" id="lang">
+                   <option value="English">English</option>
+                   <option value="English">Malayalam</option>
+                   <option value="English">Hindi</option>
+                   <option value="English">Tamil</option>
+               </select>
+           </li>
+           <br>
+           <sub style="color: rgb(31, 114, 16);">Fresh Vegetable</sub>
+           <br>
+           <li><img src="img/deliveryboy.png" alt="" width="40px" id="logo" ></li>
+           <i style="margin-left: -40px; color: gray;">Fast Delivery</i>
+           <!-- <li style="margin-left: 200px; margin-top: 20px;"><img src="cart.png" alt="" width="70px"></li> -->
+    </header>
+    </div>
+    <div class="main1">
+        <nav id="navigation">
+            <li class="navg">Home</li>
+            <li class="navg1">Offers</li>
+            <li class="navg1">About</li>
+            <li class="navg1">Filter</li>
+            <li class="navg1">Short by</li>
+            <li class="navg1">Other Products</li>
+            <li class="navg1">cart</li>
+            <li class="navg1">orders</li>
+        </nav>
+
+    </div>
+    <div>
+       <img src="img/p1.png" alt="" style="float: right;margin-top: 100px;">
+       <h1 class="hed">Let's <br> Eat Fresh <sub style="font-size: 30px; margin-left: 150px; margin-top: -500px;">Deliver Any Where Around 15Km</sub></h1>
+       
+       <div style="margin-top: 150PX;">
+        <div class="logsec">
+            
+            <input type="text" placeholder="Email or Number" style="border: 2px solid white; padding: 20px; padding-right: 90px; border-radius:10px; background-color: rgb(191, 248, 191); ">
+            <li><br><input type="text" placeholder="Password" style="border: 2px solid white; padding: 20px; padding-right: 90px; margin-top: 10px; border-radius:10px; background-color: rgb(191, 248, 191);"></li>
+            <div class="userelse">
+
+                <li style="margin-left: 20px;"><br><a href="#">Forgot password</a></sub>
+                <li style="margin-left: 10px;"><a href="#">Sign Up</a></li>
+                <br>
+            </div>
+            <input class="button1" type="submit" value="Sign In" style="border: 2px solid white; margin-left: 100px; margin-top: 10px; padding: 10px; border-radius: 15px; ">
+           </div>
+
+        </div>
+       
+    </div>
+    
+    <div class="tab">
+        <br>
+        <hr>
+        <h3>Delivery Charges</h3>
+        <table>
+            <tr>
+                <th>Distance</th>
+                <th>Delivery Charge</th>
+            </tr>
+            <tr>
+                <td>1-5 Km</td>
+                <td>Free</td>
+                
+                
+            </tr>
+            <tr>
+                <td>5-10 Km</td>
+                <td>₹10-50 </td>
+                
+            </tr>
+            <tr>
+                <td>10-15 Km</td>
+                <td> ₹50-75</td>
+            </tr>
+
+        </table>
+    </div>
+    <div>
+        <p>Why You need to Eat Organic Vegetables ?</p>
+        <div>
+            <iframe width="560" height="415" src="https://www.youtube.com/embed/iXIUM3IIE9w?si=FJxZt-CDrguGbcmt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
+    <footer id="footerr" style="text-align: center;">
+       
+         <hr style="margin-top: 50px; width: 1000px;">
+        <h1>"Serve Good Serve Love"</h1>
+        <audio controls autoplay class="audio" id="bgm">
+            <source src="img/titanium-170190.mp3">
+
+        </audio> 
+        <script>
+            var audio = document.getElementById("bgm");
+            audio.volume = 0.1;
+        </script>
+        <p>Follow Us</p> 
+        <li class="s"><a class="social" href="Instagram">Instagram</a></li>
+        <li class="s1"><a class="social" href="Facebook">Facebook</a></li>
+        <li class="s1"><a class="social" href="x">x</a></li>
+         <hr style="width: 1000px;">
+         
+       
+    </footer>
+</body>
+</html>
